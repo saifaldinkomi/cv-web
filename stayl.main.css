@@ -1,0 +1,31 @@
+@media screen and (max-width:45rem) {
+    nav {
+        display: none;
+    }
+
+    .list {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        justify-content: space-around;
+    }
+    .home .text{
+        padding: 0rem;
+        font-size: 0.7rem;
+    }
+}
+@media screen and (max-width:64rem){
+    .home .text{
+        padding: 0rem 1rem;
+    }
+}
+@media screen and (max-width:75rem){
+    .home .text{
+        padding: 0rem 1.5rem;
+    }   
+}

@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+header {
+    background-color: #eee;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.container {
+    border-top: 0.1rem solid #eee;
+    width: calc((100% - 5rem));
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.myname {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 1rem
+}
+
+header li {
+    list-style: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 0.1rem solid #fee;
+}
+
+header li:hover {
+    background-color: #ffc800;
+    transition: color 1s;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+.list {
+    display: none;
+}
+
+.home .image {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+}
+
+.home .image img {
+    width: 100%;
+    border-radius: 50%;
+    border: 0.1rem solid #000;
+}
+
+.home {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 100vh;
+    background-image: url(./image/ppu.jpg);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.home .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0rem 20rem;
+    margin: auto;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+}
+
+.skill .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    padding: 1rem 0rem;
+}
+
+.skill .image {
+    height: 10rem;
+    width: 10rem;
+}
+
+.skill img {
+    width: 100%;
+    border-radius: 50%;
+    border: 0.1rem solid #000;
+}
+
+.education .image {
+    height: 10rem;
+    width: 10rem;
+}
+
+.education img {
+    width: 100%;
+    border-radius: 50%;
+    border: 0.1rem solid #000;
+}
+
+.education .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    padding: 1rem 0rem;
+}
+
+.langueg .image {
+    height: 10rem;
+    width: 10rem;
+}
+
+.langueg img {
+    width: 100%;
+    border-radius: 50%;
+    border: 0.1rem solid #000;
+}
+
+.langueg .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    padding: 1rem 0rem;
+    gap: 22rem;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 5rem;
+    font-size: 2rem;
+}
