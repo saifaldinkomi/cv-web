@@ -1,5 +1,5 @@
 @media screen and (max-width:45rem) {
-    nav {
+    header nav {
         display: none;
     }
 
@@ -8,24 +8,29 @@
     }
 
     .container {
-        width: 100%;
+        width: 80%;
     }
 
     .row {
         justify-content: space-around;
     }
-    .home .text{
+    
+    .home .container {
+        flex-direction: column;
+    }
+    .home .about{
+        position: relative;
         padding: 0rem;
-        font-size: 0.7rem;
+        width: 100%;
+    }
+    .langueg .container {
+        flex-direction: column;
+        gap: 0rem;
+    }
+    footer .container {
+        flex-direction: column;
+        padding: 0;
+        font-size: 1.5rem;
     }
 }
-@media screen and (max-width:64rem){
-    .home .text{
-        padding: 0rem 1rem;
-    }
-}
-@media screen and (max-width:75rem){
-    .home .text{
-        padding: 0rem 1.5rem;
-    }   
-}
+
